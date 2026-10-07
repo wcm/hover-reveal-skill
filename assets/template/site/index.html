@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{BRAND}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- EDIT: fonts. Default pairing: a high-contrast display serif + a small technical mono (see references/design.md) -->
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Geist+Mono:wght@300..500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <svg id="lines" viewBox="0 0 800 1000" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <svg id="hud" aria-hidden="true"><g id="loupe"></g><line id="hx1"/><line id="hx2"/><line id="hy1"/><line id="hy2"/></svg>
+  <div id="cursor" aria-hidden="true"><i></i><span></span></div>
+
+  <header class="top">
+    <a class="mark" href="./">{{BRAND}}</a>
+    <p class="tag">{{TAGLINE}}</p>
+    <div class="coll">
+      <p>{{COLLECTION}}<br><span>{{SERIES}}</span></p>
+      <button class="auto" type="button" aria-pressed="true" title="Let a ghost cursor wander when you're idle (A)"><i></i>Auto cursor <b>On</b></button>
+    </div>
+  </header>
+
+  <section class="title" aria-live="polite">
+    <p class="no">Look <b></b> <span>/ IV</span></p>
+    <h1></h1>
+    <p class="sub"></p>
+  </section>
+
+  <aside class="notes">
+    <p class="lede"></p>
+    <dl></dl>
+  </aside>
+
+  <p class="vert">{{VERT}}</p>
+
+  <nav class="looks" aria-label="Looks"></nav>
+  <p class="hint"><span class="hint-touch">Drag</span><span class="hint-mouse">Move</span> to reveal · ← → to change look</p>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

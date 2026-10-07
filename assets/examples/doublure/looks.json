@@ -1,0 +1,24 @@
+{
+  "style": "Vertical 4:5 composition, subject centred with generous empty margin all round, perfectly plain seamless warm bone-white paper background (#EEEAE2) with no texture, gradient or props, soft diffused north-window light from the upper left, quiet-luxury fashion editorial, extremely detailed, sharp focus. No text, no logos, no watermark, no border.",
+  "keep": "Keep the exact same composition, camera, crop, framing, scale, position, silhouette outline, lighting and the perfectly plain bone-white background, so the two images overlay pixel for pixel. Only change what is described.",
+  "looks": {
+    "parfum": {
+      "top": "Still-life product photograph of a single luxury perfume bottle standing upright in the centre, filling about half the frame height: a heavy faceted rectangular crystal flacon with bevelled edges, filled with pale golden juice, a sculptural matte black stone stopper, soft caustic light refracting onto the paper beneath. Minimal and serene.",
+      "keep": "Keep the exact same camera, crop and framing, and keep the bottle in exactly the same position, size and outline so the two images overlay. Everything else changes as described; the background must change completely.",
+      "under": "Transform the whole scene into the scent itself: the plain background is gone and the entire frame, edge to edge, is now a lush nocturnal garden of the fragrance's notes — deep violet irises in full bloom, glossy dark leaves, a sliced bergamot, smoky vetiver roots, drops of amber resin and dew, mist, moody chiaroscuro light, rich jewel colours on deep inky blue-green darkness. The bottle is now clear glass filled with iris petals and glowing golden light."
+    },
+    "watch": {
+      "top": "Perfectly top-down macro product photograph of a luxury dress watch lying flat, zoomed in close so the round polished rose-gold case fills about 85% of the frame width, dead centre, with only short stubs of the brown alligator strap visible at the top and bottom edges: a cream grand-feu enamel dial with thin black baton indices, slim dauphine hands at 10:09, a small seconds sub-dial at six, a fluted crown at three. Exquisite detail, crisp reflections on the bezel.",
+      "under": "The same watch in the identical position, scale, case, bezel, crown, hands and strap, but the dial is gone: a fully openworked skeleton hand-wound mechanical movement fills the case, rhodium-plated bridges with Côtes de Genève stripes and bevelled, polished edges, red ruby jewels in gold chatons, a gold gear train, a large balance wheel with a blued hairspring near six, the mainspring barrel with a visible coiled spring near twelve, tiny blued screws, perlage on the main plate. Macro detail.",
+      "video": "Macro film of this skeleton mechanical watch movement running: the balance wheel near six swings back and forth quickly with its blued hairspring breathing in and out, the escape wheel and pallet fork tick in small steps, the gold gear train turns very slowly. The hands, the case, the bridges and the strap stay perfectly still. Polished surfaces glint softly as the parts move."
+    },
+    "house": {
+      "top": "Precise architectural elevation drawing, strictly frontal orthographic with no perspective, of a narrow four-storey Parisian townhouse façade standing alone: cream limestone, tall French windows with black wrought-iron balconies, a grey zinc mansard roof with two dormers and chimneys, a dark green double front door. Rendered in fine sepia ink line with delicate transparent watercolour wash, like a Beaux-Arts presentation plate. Just a thin ground line beneath it, nothing else.",
+      "under": "The same townhouse with the identical outline, roofline, floor heights, scale and position, drawn as an architectural cutaway section with the front wall removed, revealing the interior floor by floor in the same sepia ink and watercolour style: a tiled entrance hall with a winding staircase and a sleeping cat on the steps, a salon with a piano and a lit lamp, a bedroom with a claw-foot bath, a book-lined library, and an artist's studio with an easel under the mansard skylight. Little figures living in it."
+    },
+    "bust": {
+      "top": "Museum photograph of a classical white Carrara marble bust of a young woman in the style of Canova, head turned very slightly to her left, hair gathered in a loose Grecian knot with soft waves, smooth polished stone with faint grey veining, shoulders and upper chest ending in a draped stone cloth, set on nothing.",
+      "under": "The same bust come to life as a real young woman of flesh, identical pose, head angle, silhouette, hair shape and position: warm living skin with a faint rose flush on the cheeks and lips, real chestnut hair in the same loose Grecian knot, eyes open and softly gazing to the side, the draped cloth now real ivory silk in the same folds. Same lighting."
+    }
+  }
+}

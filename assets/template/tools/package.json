@@ -1,0 +1,9 @@
+{
+  "name": "hover-reveal-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fal-ai/client": "^1.0.0",
+    "sharp": "^0.34.0"
+  }
+}
